@@ -1,0 +1,29 @@
+nav{
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: salmon;
+    margin-bottom: 150px;
+    ul{
+        display: flex;
+        align-items: center;
+        gap: 100px;
+        list-style: none;
+        .avatar{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img{
+                width: 50px;
+                border-radius: 50%;
+            }
+            h2{
+                font-size: 20px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                -webkit-line-clamp: 4;
+                line-clamp: 5;
+            }
+        }
+    }
+}
